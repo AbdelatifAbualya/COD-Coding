@@ -4,7 +4,7 @@
   "description": "AI-powered coding assistant with DeepSeek V3-0324",
   "private": true,
   "scripts": {
-    "dev": "vercel dev",
+    "dev": "node api/chat.js",
     "deploy": "vercel deploy --prod"
   },
 
