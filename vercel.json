@@ -3,7 +3,7 @@
   "name": "enhanced-coding-cod-studio",
   "functions": {
     "api/chat.js": {
-      "runtime": "nodejs18",
+      "runtime": "nodejs22",
       "maxDuration": 30,
       "memory": 1024
     }
