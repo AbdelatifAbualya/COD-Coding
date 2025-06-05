@@ -1,32 +1,17 @@
 {
-  "name": "enhanced-coding-cod-studio",
-  "version": "1.0.0",
-  "description": "AI-powered coding assistant with DeepSeek V3-0324",
-  "private": true,
+  "name": "cod-studio-3test",
+  "version": "42.2.0",
+  "description": "AI Reasoning Studio with Chain of Draft methodology",
+  "main": "index.html",
   "scripts": {
     "dev": "vercel dev",
-    "deploy": "vercel deploy --prod"
+    "build": "echo 'No build step needed for static site'",
+    "deploy": "vercel --prod"
   },
-  "dependencies": {
-    "dotenv": "^16.3.1"
-  },
-  "devDependencies": {
-    "vercel": "^32.3.0"
-  },
-  "engines": {
-    "node": ">=18.0.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/yourusername/enhanced-coding-cod-studio.git"
-  },
-  "keywords": [
-    "ai",
-    "coding",
-    "deepseek",
-    "assistant",
-    "vercel"
-  ],
+  "keywords": ["ai", "reasoning", "chain-of-draft", "fireworks"],
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "vercel": "^33.0.0"
+  }
 }
